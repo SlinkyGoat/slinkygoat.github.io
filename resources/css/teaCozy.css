@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    /* background-color: green; */
+    opacity: 0.9;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    min-width: 550px;
+    background-color: black;
+    z-index: 1;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    margin: 0px 20px;
+    box-sizing: border-box;
+    /* border: 2px solid green; */
+}
+
+footer {
+    position: relative;
+    /* top: 50px; */
+    box-sizing: border-box;
+    text-align: center;
+    height: 200px;
+    /* border: 2px solid yellow; */
+    margin: 80px 20px;
+}
+
+.copyright {
+    margin: 0px 20px;
+    font-weight: bold;
+}
+
+h2, h4 {
+    background-color: black;
+    padding: 5px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.links {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline;
+    text-align: center;
+}
+
+.links a {
+    color: white;
+    margin: auto 10px;
+}
+
+.our-mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 100%;
+    background-position: left 50% top 0px;
+    background-repeat: no-repeat;
+}
+
+.mission-headers {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tea-of-the-month {
+    margin: 75px auto;
+    max-width: 1000px;
+}
+
+.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 5px;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.locations {
+    min-width: 980px;
+    max-width: 1200px;
+    height: 600px;
+    margin: 50px auto 0px;
+    background-image: url("../images/img-locations-background.jpg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+.locations h2 {
+    background-color: transparent;
+    background-position: center;
+    position: relative;
+    top: 75px;
+}
+
+.location-container {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    top: 90px;
+    justify-content: center;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+}
+
+.location p {
+    margin: 30px 0px;
+}
+
