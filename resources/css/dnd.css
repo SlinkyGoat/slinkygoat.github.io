@@ -16,3 +16,10 @@ nav {
 nav a {
     margin: 0px 50px;
 }
+
+main {
+    position: relative;
+    top: 52px;
+    padding: 10px;
+}
+
