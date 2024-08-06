@@ -63,6 +63,13 @@ p {
 img {
     margin: 0px auto;
     display: block;
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+u {
+    color: rgb(25, 233, 25);
 }
 
 .sidebar {
